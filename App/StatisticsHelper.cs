@@ -11,10 +11,10 @@ public class StatisticsHelper
         return total / values.Length;
     }
 
-    public static int GetMax(int[] numbers)
+    public static int CalculateMax(int[] values)
     {
-        int max = numbers[0];
-        foreach (var num in numbers)
+        int max = values[0];
+        foreach (var num in values)
         {
             if(num > max)  
                 max = num;
