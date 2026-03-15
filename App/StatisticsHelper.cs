@@ -24,12 +24,12 @@ public class StatisticsHelper
 
     public static int CalculateMin(int[] numbers)
     {
-        int min = numbers[0];
+        int minimum = numbers[0];
         foreach (var num in numbers)
         {
-            if(num < min)  
-                min = num;
+            if(num < minimum)  
+                minimum = num;
         }
-        return min;
+        return minimum;
     }
 }
