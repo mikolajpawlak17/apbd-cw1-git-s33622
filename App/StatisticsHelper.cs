@@ -11,7 +11,7 @@ public class StatisticsHelper
         return total / values.Length;
     }
 
-    public static int GetMax(int[] numbers)
+    public static int CalculateMax(int[] numbers)
     {
         int max = numbers[0];
         foreach (var num in numbers)
