@@ -2,13 +2,13 @@
 
 public class StatisticsHelper
 {
-    public static double CalculateAverage(int[] numbers)
+    public static double CalculateAverage(int[] values)
     {
-        if (numbers == null || numbers.Length == 0) return 0.0;
-        double sum = 0;
-        foreach (var num in numbers) 
-            sum += num;
-        return sum / numbers.Length;
+        if (values == null || values.Length == 0) return 0.0;
+        double total = 0;
+        foreach (var num in values) 
+            total += num;
+        return total / values.Length;
     }
 
     public static int GetMax(int[] numbers)
